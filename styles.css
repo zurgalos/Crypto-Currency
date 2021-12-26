@@ -1,0 +1,333 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
+    Arial, Helvetica, Geneva, sans-serif;
+  font-size: 16px;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("Assests/cryptocurrency-gambling-among-challenges-for-regulators-says-iagr-report_0_lUy5PUVTIT7RtFMdHB7Cg3hpHfdwwQM9AdL6gOdI.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+main {
+  background-color: rgba(230, 238, 236, 0.89);
+}
+#aboutmeMain {
+height: 100%;
+}
+.parallax {
+  /* The image used */
+  background-image: url("Assests/cryptocurrency-gambling-among-challenges-for-regulators-says-iagr-report_0_lUy5PUVTIT7RtFMdHB7Cg3hpHfdwwQM9AdL6gOdI.jpeg");
+
+  /* Set a specific height */
+  min-height: 200px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.topcontainer {
+  position: relative;
+}
+.navbar { 
+  box-shadow: 6px 6px 5px rgb(75, 99, 100);
+  padding: 0%;
+  border-top: 1px solid rgb(113, 175, 184);
+  position: sticky;
+  top: 0;
+  }
+
+.menuItem {
+  font-size: 18px;
+  color: rgb(122, 236, 253);
+  padding: 0%;
+  margin-right: 13px;
+}
+
+.menuItem:hover { 
+color: rgb(0, 38, 255);
+}
+#CoinsContainer {
+  text-align: center;
+}
+
+.added { 
+  margin: 3px;
+  margin-top: 10px;
+}
+
+#btnInfos {
+  text-align: center;
+}
+.card {
+  display: inline-block;
+  justify-content: space-between;
+
+  text-align: left;
+}
+
+.toggleDiv {
+  position: relative;
+}
+.switch {
+  position: absolute;
+  left: 80%;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.toggle {
+  position: absolute;
+  right: 100%;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+#anavDiv:first-child {
+  margin-left: 2px;
+}
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+h1 {
+  font-size: 300%;
+  color: ghostwhite;
+  text-align: center;
+  font-family:fantasy;
+}
+.navbar {
+  position: relative;
+}
+
+#collapseOne {
+  text-align: left;
+}
+.navbar {
+  font-family: cursive;
+  width: 100%;
+  height: 45px;
+}
+
+.symbols {
+  /* text-align: center; */
+  display: flex;
+}
+#imgDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 20px;
+  margin-bottom: 6px;
+}
+.inlineblock {
+  display: inline-block
+}
+.loader {
+  -webkit-perspective: 700px;
+  perspective: 700px;
+  text-align: center;
+  font-size: 200px;
+}
+
+.loader > span {
+  font-size: 130px;
+  font-family: "franklin gothic medium", sans-serif;
+  display: inline-block;
+  animation: flip 2.6s infinite linear;
+  transform-origin: 0 70%;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+}
+
+@keyframes flip {
+  35% {
+    transform: rotateX(360deg);
+  }
+  100% {
+    transform: rotatex(360deg);
+  }
+}
+
+.loader > span:nth-child(even) {
+  color: black;
+}
+
+.loader > span:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.loader > span:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.loader > span:nth-child(4) {
+  animation-delay: 0.9s;
+}
+
+.loader > span:nth-child(5) {
+  animation-delay: 1.2s;
+}
+
+.loader > span:nth-child(6) {
+  animation-delay: 1.5s;
+}
+
+.loader > span:nth-child(7) {
+  animation-delay: 1.8s;
+}
+.card:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.added:hover {
+  background-color: rgb(164, 234, 255);
+}
+.bg-modal {
+  width: 100vw;
+  height: 1000px;
+  background-color: rgba(155, 155, 155, 0.7);
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.modal-content {
+  width: 500px;
+  background-color: white;
+}
+.modal-content > .added {
+  margin: 0;
+  height: 100px;
+}
+.close {
+  position: absolute;
+  top: 0;
+  right: 14px;
+  font-size: 42px;
+  transform: rotate(45deg);
+  color: red;
+}
+.sumbitChanges {
+  position: absolute;
+  bottom: 150px;
+}
+#alertText {
+  position:absolute;
+  top: 80px;
+  background-color:rgb(255, 255, 230);
+  color:black;
+width: 500px;
+border-radius: 5px;
+text-align: center;
+}
+.modal-content {
+background-color: rgb(65, 65, 65);
+color: black;
+}
+#divAlert {
+  margin-bottom: 5px;
+}
+#centerMe {
+  color:yellow;
+  background-color:#343a40;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.aboutpage  {
+  margin-top: 25px;
+  font-size: 21px;
+  text-align: center;
+
+  -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 4s; /* Firefox < 16 */
+      -ms-animation: fadein 4s; /* Internet Explorer */
+       -o-animation: fadein 4s; /* Opera < 12.1 */
+          animation: fadein 4s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}​
